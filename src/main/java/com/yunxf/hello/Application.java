@@ -8,6 +8,7 @@ public class Application {
         System.out.println("HelloDemo");
         System.out.println("hehehe");
         String abc ="abc";
+        String bbb = "bbb";
         int a  = 1;
     }
 }
