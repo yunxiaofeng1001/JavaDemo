@@ -9,6 +9,7 @@ public class Application {
         System.out.println("hehehe");
         String abc ="abc";
         String cc  = "ccc";
+        String dd  = "ddd";
         int a  = 1;
     }
 }
