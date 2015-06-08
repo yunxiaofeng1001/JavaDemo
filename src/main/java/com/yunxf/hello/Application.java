@@ -1,14 +1,14 @@
 package com.yunxf.hello;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * Created by yunxiaofeng on 2015/6/7.
  */
+@SpringBootApplication
 public class Application {
     public static void main(String[] args) {
-        System.out.println("HelloDemo");
-        System.out.println("hehehe");
-        String abc ="abc";
-        String cc  = "ccc";
-        int a  = 1;
+        SpringApplication.run(Application.class, args);
     }
 }
