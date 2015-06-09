@@ -14,7 +14,7 @@ public class Trade {
     private long id;
 
     private Date createTime;
-fdafdas
+
     private String state;
 
     private String type;
