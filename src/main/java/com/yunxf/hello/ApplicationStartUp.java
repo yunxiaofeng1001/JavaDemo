@@ -20,7 +20,7 @@ public class ApplicationStartUp implements ApplicationListener<ContextRefreshedE
     public void onApplicationEvent(ContextRefreshedEvent event) {
         User user  = new User();
         Trade trade = new Trade();
-        user.setName("zhangsan");
+        user.setName("张三");
         UserService userService = event.getApplicationContext().getBean(UserService.class);
         User u = userService.create(user);
         trade.setCreateTime(new Date());
