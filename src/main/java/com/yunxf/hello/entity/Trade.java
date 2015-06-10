@@ -23,6 +23,19 @@ public class Trade {
 
     private String moneyType;
 
+    public  Trade(){
+
+    }
+
+    public  Trade(String state,User u){
+        this.createTime = new Date();
+        this.state = state;
+        this.type = "pay";
+        this.money = new BigDecimal(123);
+        this.moneyType = "rmb";
+        this.user = u;
+    }
+
     @ManyToOne
     @JoinColumn
     private User user;
