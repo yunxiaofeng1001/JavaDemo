@@ -67,7 +67,6 @@ public class UserRepositoryTests {
         User u = new User();
         u.setName("张三");
         u = userRepository.save(u);
-
         Trade t1 = new Trade("success",u);
         Trade t2 = new Trade("success",u);
         Trade t3 = new Trade("success",u);
